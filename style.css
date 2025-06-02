@@ -1,0 +1,36 @@
+.hero-section {
+    background-color: rgb(206, 62, 62);
+    background-size: cover;
+    background-position: center;
+    padding: 100px 0;
+}
+
+.section-title {
+    position: relative;
+    display: inline-block;
+    margin-bottom: 40px;
+}
+
+.section-title:after {
+    content: '';
+    position: absolute;
+    width: 50%;
+    height: 3px;
+    background-color: #c00;
+    bottom: -10px;
+    left: 25%;
+}
+
+.card-img {
+    height: 200px;
+    object-fit: cover;
+    width: 100%;
+}
+
+.card {
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
